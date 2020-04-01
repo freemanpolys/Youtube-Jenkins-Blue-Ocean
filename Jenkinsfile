@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('Hello World') {
       steps {
-        tool 'maven363'
-        sh 'mvn --version'
+        sh 'ls .'
       }
     }
 
